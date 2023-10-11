@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CC5C6DE-C77B-80F7-C66B-3CA8DB2599D5" name="rachunek">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>4A939B70-E0C3-7C11-D7A0-3955EEDA4EBF</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id rachunku" id="63F5D718-1B7E-247B-2FFF-4BD354161BFF">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>F0BD2F3E-1ECB-5869-AD01-BD57474CDAE9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data rachunku" id="458B271D-9272-DE5C-DD94-C5209F7CD7CB">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>6BA3C7BB-60EF-B1DD-5442-15B99B28A0A6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3D42B875-F530-533C-28DD-AF971F4FD775</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klienci id klienta" id="41E64D66-E783-A65D-757B-19D6F50B1383">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>6E93D11E-E7C5-7C84-91F1-BB33C2CF5C70</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<referedAttribute>9A34B5CE-931E-33B5-7BD0-BB41567BBDA0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEE7A58D-50E4-A3D3-6DEA-431EAED7B06D" name="rachunek pk">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>3C227210-E16B-E359-23FD-E49F240872F2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63F5D718-1B7E-247B-2FFF-4BD354161BFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

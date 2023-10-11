@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEEDE9F2-F97B-8A42-FD54-7C54B12143B3" containerWithKeyObject="62F5C8D7-B14D-9FB0-510A-E08E459C44CB" localFKIndex="9D301202-0A55-1068-DD37-714B9AD33F39" name="produkty_kategorie_fk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>0573EEF5-47FC-3BF7-72D8-808847E8ACA8</importedID>
+<referredTableLongName>kategorie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC5A5C6B-0014-531C-3EB2-BBEBF5653598</referredTableID>
+<keyObject>E3906734-EECA-D89F-DD37-0A1B0EDD69C8</keyObject>
+<referredKeyID>E3906734-EECA-D89F-DD37-0A1B0EDD69C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kategorii</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

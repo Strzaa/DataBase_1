@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8D391F7-25F8-947A-2E07-318371D1B287" containerWithKeyObject="4A939B70-E0C3-7C11-D7A0-3955EEDA4EBF" localFKIndex="BDBEA585-D8B2-B8CD-52E6-CE52FF2542CC" name="rachunek_klienci_fk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>37C90EE5-3859-73D7-CEDB-0FA899208E5A</importedID>
+<referredTableLongName>klienci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4D71775-6504-43E2-C8FE-9C5FF7566BFE</referredTableID>
+<keyObject>95190048-F98B-80C9-DE9F-79F99E6175FA</keyObject>
+<referredKeyID>95190048-F98B-80C9-DE9F-79F99E6175FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_klienta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

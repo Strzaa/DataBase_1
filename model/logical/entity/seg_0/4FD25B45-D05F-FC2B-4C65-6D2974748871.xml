@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FD25B45-D05F-FC2B-4C65-6D2974748871" name="pozycjarachunku">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>66591FD9-0394-D5F1-E568-92E1A22243D2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rachunek id rachunku" id="8E3A3FAA-55E2-1CC3-CC2A-3766400F6BBD">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>48884CF9-DC77-607B-E45F-D19B2428B9EE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>63F5D718-1B7E-247B-2FFF-4BD354161BFF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produkty kod produktu" id="8B4096CE-77A6-8EF9-EA3E-66597CE83D43">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>BA813D8D-0EB8-1F69-518F-C290C58D4370</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D5416BF7-99B2-734C-5E09-B9B0CBA876FF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilosc kupionego produktu" id="782131AC-78AA-C8C8-8FD0-F9AFEA423A30">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>FA21E196-9F99-03EA-6E18-0BFBB73B5195</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

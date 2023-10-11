@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4D71775-6504-43E2-C8FE-9C5FF7566BFE" name="klienci">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>98B025C4-C80D-177E-1485-BCEF78CDE087</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_klienta" id="C2CB88F9-0B05-1522-C2C3-BC2CC72A264C">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>40B98281-C697-8D82-457B-4652B22FD047</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres_klienta" id="8619F568-8811-A9F6-1F53-4B2CCFA1E476">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>304642E8-69AB-4EEE-E517-DABDC654B476</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>07353330-21FF-D623-BBC7-EB825398EFFC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imię_klienta" id="DBFAFE9E-4F51-D461-72D0-CA62F68CD808">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>72F39BD0-22C9-EABE-545D-DF5689457977</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E1BFAAA-F142-F0EF-420E-004FA307066A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko_klienta" id="EC0688E5-853A-D756-0A3D-A85DECE1237A">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>9D1CF244-6E21-7C06-354E-C51121AB9C7F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E1BFAAA-F142-F0EF-420E-004FA307066A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="limitkredytowy_klienta" id="C8C90BF6-5D79-76A2-7BAB-C7B11BCECE78">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>66087B78-01AD-B850-2F49-A6E3CD5C9228</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupa_id_grupy" id="20D4FA1F-9D3F-649D-166C-F4B4D4147588">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>5150C676-1A98-C601-62E2-C9634B29A152</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CD55093-C161-1EEE-BAEA-6E78FC31FBFD" referredColumn="A090212E-92D0-5A52-DB78-3C1A01A62F28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95190048-F98B-80C9-DE9F-79F99E6175FA" name="klienci_pk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>BF46B450-5C78-6BD9-898F-7268569CC7E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2CB88F9-0B05-1522-C2C3-BC2CC72A264C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD467DD8-D36E-E0B4-9950-B6C0366791B5" name="klienci_grupa_fk">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20D4FA1F-9D3F-649D-166C-F4B4D4147588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

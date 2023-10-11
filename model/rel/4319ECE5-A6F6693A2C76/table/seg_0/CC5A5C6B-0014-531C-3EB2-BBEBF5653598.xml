@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC5A5C6B-0014-531C-3EB2-BBEBF5653598" name="kategorie">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>3340B391-5986-936C-5E6B-83837EE94499</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategorii" id="DD007354-1396-1FBD-C3ED-08A629C755A5">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>31E61625-7230-D69A-0F6A-6B4F0BDA0ED0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_kategorii" id="A2449D9E-511D-9BB9-9A9E-AB7612677349">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>4C233FBF-AB84-12FD-55CC-B8EB31F51DEA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E1BFAAA-F142-F0EF-420E-004FA307066A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3906734-EECA-D89F-DD37-0A1B0EDD69C8" name="kategorie_pk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>E753FA4E-6814-D789-8257-9CFD3BA3C2F6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD007354-1396-1FBD-C3ED-08A629C755A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

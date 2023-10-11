@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="klienci" directorySegmentName="seg_0" id="D4D71775-6504-43E2-C8FE-9C5FF7566BFE">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="grupa_id_grupy" id="20D4FA1F-9D3F-649D-166C-F4B4D4147588">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="adres_klienta" id="8619F568-8811-A9F6-1F53-4B2CCFA1E476">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_klienta" id="C2CB88F9-0B05-1522-C2C3-BC2CC72A264C">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="limitkredytowy_klienta" id="C8C90BF6-5D79-76A2-7BAB-C7B11BCECE78">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="imię_klienta" id="DBFAFE9E-4F51-D461-72D0-CA62F68CD808">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nazwisko_klienta" id="EC0688E5-853A-D756-0A3D-A85DECE1237A">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="klienci_grupa_fk" id="DD467DD8-D36E-E0B4-9950-B6C0366791B5">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="klienci_pk" id="95190048-F98B-80C9-DE9F-79F99E6175FA">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F3E7CC8-26A3-E7B9-1900-4DF27A4E12B9" name="kategorie">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>CC5A5C6B-0014-531C-3EB2-BBEBF5653598</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id kategorii" id="C77D049C-C90A-FE79-A22A-810B4A33E0C8">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>DD007354-1396-1FBD-C3ED-08A629C755A5</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa kategorii" id="0EF171DD-F25B-3546-2494-F0834B99C3CC">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>A2449D9E-511D-9BB9-9A9E-AB7612677349</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E1BFAAA-F142-F0EF-420E-004FA307066A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58C6B8F6-FA2B-3ECF-EE27-D2D3649B128D" name="kategorie pk">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>E3906734-EECA-D89F-DD37-0A1B0EDD69C8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C77D049C-C90A-FE79-A22A-810B4A33E0C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

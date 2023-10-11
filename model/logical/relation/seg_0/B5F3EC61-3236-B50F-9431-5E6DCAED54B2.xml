@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="klienci_grupa_fk" directorySegmentName="seg_0" id="B5F3EC61-3236-B50F-9431-5E6DCAED54B2">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>0CD55093-C161-1EEE-BAEA-6E78FC31FBFD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<sourcePk>B2FAABB7-CB68-F0A8-6BC9-1C0CD244B710</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E51AABDF-5DD6-3CCF-D0D6-56DD739A2440</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>297E2959-154B-DC5F-2179-90905D2EDB00</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produkty_kategorie_fk" directorySegmentName="seg_0" id="4D8BADEC-4518-40F6-0E37-9FB90F08E583">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>AEEDE9F2-F97B-8A42-FD54-7C54B12143B3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<sourcePk>58C6B8F6-FA2B-3ECF-EE27-D2D3649B128D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F3E7CC8-26A3-E7B9-1900-4DF27A4E12B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8B5D0C3-38F8-6746-B9A4-D69692C0D168</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

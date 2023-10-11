@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rachunek_klienci_fk" directorySegmentName="seg_0" id="6E93D11E-E7C5-7C84-91F1-BB33C2CF5C70">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:29:39 UTC</createdTime>
+<generatorID>F8D391F7-25F8-947A-2E07-318371D1B287</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" value="true"/>
+<item key="79521B1A-C49E-0309-D2BA-F664A07F10C9" value="true"/>
+<item key="FE5AA2B6-BECB-C078-A8CB-415F55EC91D4" value="true"/>
+</engineerTo>
+<sourcePk>1FAB8E0D-7156-78A8-464A-BE2F0CA44D75</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>297E2959-154B-DC5F-2179-90905D2EDB00</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9CC5C6DE-C77B-80F7-C66B-3CA8DB2599D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

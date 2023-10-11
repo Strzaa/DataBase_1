@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="produkty" directorySegmentName="seg_0" id="62F5C8D7-B14D-9FB0-510A-E08E459C44CB">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="kategorie_id_kategorii" id="35E9775B-A644-B2B1-4B3F-6AFC283E9BFB">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nazwa_produktu" id="3A86ADBD-8323-33EE-E6F6-24530BADD931">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="kod_produktu" id="763BE249-1BC9-4D81-469E-E369903EC94B">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dostępnaliczba_produktu" id="A6DDE1ED-C86A-F43F-E959-37E422784FE3">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cena_produktu" id="DE31745B-DD5A-089D-1BD7-B9D03339AE35">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dostępnawysyłka_produktu" id="FAA160D4-1E3F-33EC-AE3F-F6FB9A818A30">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="produkty_kategorie_fk" id="9D301202-0A55-1068-DD37-714B9AD33F39">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="produkty_pk" id="E8BCD429-97BA-05D5-32E1-74E3C38C8F13">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

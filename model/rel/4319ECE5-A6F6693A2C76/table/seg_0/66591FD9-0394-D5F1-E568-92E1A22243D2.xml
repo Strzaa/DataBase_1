@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66591FD9-0394-D5F1-E568-92E1A22243D2" name="pozycjarachunku">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>4700F89E-2972-77F0-19F9-3CD34988226D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rachunek_id_rachunku" id="9F100193-E2CC-C93F-0E17-F0387F03789E">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>BB3ABC53-0BAB-0B6E-A5D3-4C5D9F7FFDD9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5219053-BCAC-5798-D638-121A930E158F" referredColumn="F0BD2F3E-1ECB-5869-AD01-BD57474CDAE9"/>
+</associations>
+</Column>
+<Column name="produkty_kod_produktu" id="5BEFFCD8-12AC-766B-35F9-B80822E45736">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>1C69B683-43AE-91D8-E385-79FACAD998B9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A19C846D-9A2F-D67B-D983-FAC28B3DFABA" referredColumn="763BE249-1BC9-4D81-469E-E369903EC94B"/>
+</associations>
+</Column>
+<Column name="ilosc_kupionego_produktu" id="FA21E196-9F99-03EA-6E18-0BFBB73B5195">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>F1615DE9-FCC1-BADE-1389-D6C864039942</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C5D5B44A-A67F-3388-8400-89A5A96F542B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11BF0524-C96F-33D2-B135-645C9E91E387" name="pozycjarachunku_produkty_fk">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BEFFCD8-12AC-766B-35F9-B80822E45736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="049AE50B-CF09-16A8-DA8A-DEE843FB1EF2" name="pozycjarachunku_rachunek_fk">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F100193-E2CC-C93F-0E17-F0387F03789E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="kategorie" directorySegmentName="seg_0" id="6B2B1338-C672-FA28-44E2-2DC6CB3D85E8">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>FEB7FE46-5214-99B3-A5AC-B66FE15BD6A0</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="nazwa_kategorii" id="A9AB4DD9-466A-47BD-A5C4-C08178242B9F">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id_kategorii" id="E666C904-F168-951B-64D2-6327DD1F560F">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="kategorie_pk" id="562A8028-D6C8-3CB1-8C89-E2C888E02FDC">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5219053-BCAC-5798-D638-121A930E158F" containerWithKeyObject="66591FD9-0394-D5F1-E568-92E1A22243D2" localFKIndex="049AE50B-CF09-16A8-DA8A-DEE843FB1EF2" name="pozycjarachunku_rachunek_fk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>9585857D-A2C0-5FF1-B2B1-6314A7E12EFB</importedID>
+<referredTableLongName>rachunek</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A939B70-E0C3-7C11-D7A0-3955EEDA4EBF</referredTableID>
+<keyObject>3C227210-E16B-E359-23FD-E49F240872F2</keyObject>
+<referredKeyID>3C227210-E16B-E359-23FD-E49F240872F2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_rachunku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

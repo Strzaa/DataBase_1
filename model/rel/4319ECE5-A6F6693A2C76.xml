@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="CreateTables(2)" id="4319ECE5-C7A3-335A-DDBF-A6F6693A2C76" mainViewID="3D4A264B-AE06-575D-1F69-4C21AEE42979">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>CreateTables.ddl</fileName>
+<pathName>C:\Users\Acer\Desktop\Projekt BD</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

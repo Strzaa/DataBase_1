@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CD55093-C161-1EEE-BAEA-6E78FC31FBFD" containerWithKeyObject="D4D71775-6504-43E2-C8FE-9C5FF7566BFE" localFKIndex="DD467DD8-D36E-E0B4-9950-B6C0366791B5" name="klienci_grupa_fk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>248CF0B5-B6CD-D9A9-CDB0-D3FF2AD6CD23</importedID>
+<referredTableLongName>grupa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D32861A2-9C50-D024-C303-DC10670A858E</referredTableID>
+<keyObject>E3E03548-5C23-F799-BBF0-FBB1552FA1CE</keyObject>
+<referredKeyID>E3E03548-5C23-F799-BBF0-FBB1552FA1CE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_grupy</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

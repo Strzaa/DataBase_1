@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="model" id="804CF177-2121-9910-70FF-3705F464CF05" version="3.5">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:25:09 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>804CF177-2121-9910-70FF-3705F464CF05</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EFE67C3A-163B-8187-CE16-7BCCF5BBAD07">
+<designStoragePath>C:\CreateTables</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F61C2F99-DE90-98B1-1A2C-A149AE616821">
+<designStoragePath>C:\CreateTables</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

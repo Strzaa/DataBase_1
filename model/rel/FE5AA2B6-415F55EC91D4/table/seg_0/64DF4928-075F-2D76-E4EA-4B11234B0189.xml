@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64DF4928-075F-2D76-E4EA-4B11234B0189" name="rachunek">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>EA6429CA-76D3-2CB7-7CF2-F3BE5C5A03B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rachunku" id="F0C0719B-CA8C-5184-44C3-9FE539D9D0FE">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>04506CB9-D5A3-F48D-B0FB-E03526E6CD51</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_rachunku" id="0659C6A2-BF12-15E7-799C-31C934F605DA">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>F35EF5B1-4749-F4CE-1056-5DBFCFF7FED6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3D42B875-F530-533C-28DD-AF971F4FD775</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klienci_id_klienta" id="57DD700B-893F-78BB-A6A9-E99394DB5BD1">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>EF594D3E-AA05-7340-BBD9-42A4E81412FF</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04213A27-A832-D8D0-1AF1-37A6BAF606F8" referredColumn="A7782DEE-1FD3-940F-8E5F-6CBE266FAA1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD586D46-B4EB-1585-E37D-B2520F4B2574" name="rachunek_pk">
+<sourceDDLFile>CreateTables.ddl</sourceDDLFile>
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>95E4729B-A9D4-E10D-80F7-15FCCBC1FF0B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C0719B-CA8C-5184-44C3-9FE539D9D0FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C310C830-83BB-056A-3817-2D369A7EC16F" name="rachunek_klienci_fk">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DD700B-893F-78BB-A6A9-E99394DB5BD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

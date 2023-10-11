@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="grupa" directorySegmentName="seg_0" id="D32861A2-9C50-D024-C303-DC10670A858E">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nazwa_grupy" id="1227646C-65FF-F960-7108-E60C5DA4105C">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_grupy" id="A090212E-92D0-5A52-DB78-3C1A01A62F28">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="grupa_pk" id="E3E03548-5C23-F799-BBF0-FBB1552FA1CE">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:28:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

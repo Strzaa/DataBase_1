@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="klienci" directorySegmentName="seg_0" id="25E3A853-455E-30BB-F0AE-58D020582950">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>022AA60A-1C25-2277-20BB-BC440B813B66</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="limitkredytowy_klienta" id="4E9B45BA-9D1D-5E55-3E45-8E5C73D5997F">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="adres_klienta" id="5D57AE97-251C-48E6-B3E8-94BD53CB23EB">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="grupa_id_grupy" id="7F365FF4-8E9B-E4E1-A356-66C95B716649">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="id_klienta" id="A7782DEE-1FD3-940F-8E5F-6CBE266FAA1F">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="nazwisko_klienta" id="FAE5E239-1201-C856-1AC5-89533123788D">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="imię_klienta" id="FFED7C67-7D9F-19A6-08C0-ACB5EA224D99">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="klienci_grupa_fk" id="2A400DCC-F773-9AD6-F325-BE9ED7376CB1">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>CreateTables</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="klienci_pk" id="367F4B08-4BE6-7EF5-8910-DE7E9D5C1C56">
+<createdBy>Acer</createdBy>
+<createdTime>2022-06-17 14:26:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>
